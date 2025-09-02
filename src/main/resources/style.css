@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "alertFont";
+    src: url("fonts/alertFont.ttf");
+}
+
+.alert {
+    -fx-background-color: #8fd6ff;
+    -fx-text-fill: white;
+    -fx-font-family: "alertFont";
+}

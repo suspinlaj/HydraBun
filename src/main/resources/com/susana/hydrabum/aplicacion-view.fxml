@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="161.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AplicacionController">
+   <children>
+      <AnchorPane>
+         <children>
+            <ImageView fitHeight="527.0" fitWidth="237.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/fondo2.jpeg" />
+               </image>
+            </ImageView>
+            <ProgressIndicator fx:id="prgIndicator" layoutX="108.0" layoutY="119.0" prefHeight="43.0" prefWidth="21.0" progress="0.0" scaleX="4.0" scaleY="4.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </ProgressIndicator>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="64.0" layoutX="56.0" layoutY="156.0" stroke="WHITE" strokeType="INSIDE" width="126.0" />
+            <ImageView fx:id="imgConejo" fitHeight="295.0" fitWidth="211.0" layoutX="21.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/Conejo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="53.0" fitWidth="54.0" layoutX="101.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/vaso.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnMas" accessibleRole="BUTTON" fitHeight="43.0" fitWidth="45.0" layoutX="42.0" layoutY="459.0" onMouseClicked="#btnMas_clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/mas.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnMenos" accessibleRole="BUTTON" fitHeight="21.0" fitWidth="50.0" layoutX="151.0" layoutY="470.0" onMouseClicked="#btnMenos_clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/menos.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lbFecha" alignment="BOTTOM_CENTER" layoutX="81.0" layoutY="-10.0" prefHeight="35.0" prefWidth="76.0" style="-fx-background-color: #2f9bff; -fx-border-color: #004ae0; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-width: 3;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbPorcentaje" layoutX="101.0" layoutY="74.0" prefHeight="43.0" prefWidth="58.0" text="0%" textFill="#52c5ff">
+               <font>
+                  <Font name="System Bold Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbPorcentaje2" layoutX="90.0" layoutY="74.0" prefHeight="43.0" prefWidth="58.0" textFill="#52c5ff" translateX="3.0">
+               <font>
+                  <Font name="System Bold Italic" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

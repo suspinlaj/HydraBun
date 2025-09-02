@@ -1,0 +1,7 @@
+boton {
+      -fx-background-color: #28A745;
+         -fx-text-fill: white;
+         -fx-font-weight: bold;
+         -fx-border-radius: 5px;
+         -fx-padding: 5px 10px;
+}

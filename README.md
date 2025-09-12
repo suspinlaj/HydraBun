@@ -6,18 +6,6 @@ Acerca de este Proyecto
 
 Este proyecto fue iniciado durante mis estudios de DAM1 (Desarrollo de Aplicaciones Multiplataforma) como una forma de practicar lo que estabamos aprendiendo en ese momento.
 
-Funcionalidades Actuales
-
-Fecha actual: En la parte superior de la pantalla se muestra la fecha actual.
-
-Porcentaje de hidratación: Un círculo que se llena a medida que aumentas el porcentaje de agua que has bebido.
-
-Conejo bebiendo agua: Un dibujo de un conejo que está bebiendo agua de un vaso, en el que va desapareciendo la bebida del vaso conforme vas completando tú objetivo de beber más al día.
-
-Botones de +/-: Justo debajo del conejo, tienes botones para sumar o restar porcentaje, lo que simula que has bebido agua o si cometiste un error.
-
-Notificación de éxito: Cuando el vaso del conejo se vacía completamente, aparece una ventana de notificación informándote que has cumplido el objetivo del día.
-
 Funcionalidades Futuras
 1. Tracker de Consumo de Agua
 

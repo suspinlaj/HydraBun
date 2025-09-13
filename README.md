@@ -1,6 +1,6 @@
 # 🐰 **HydraBun**
 
-HydraBun es una aplicación cuyo objetivo es recordarte que debes beber agua todos los días, utilizando un simpático conejo que se encarga de recordarte tu meta diaria de hidratación.
+HydraBun es una aplicación cuyo objetivo es recordarte que debes beber agua todos los días, utilizando un simpático conejo que se encarga de recordarte tu meta diaria de hidratación mientras bebe contigo.
 
 ## 📘 **Acerca de este proyecto**
 
